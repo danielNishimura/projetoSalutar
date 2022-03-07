@@ -13,10 +13,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="OriginSix" src=".github/preview.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Desenvolvido com as seguintes tecnologias:
