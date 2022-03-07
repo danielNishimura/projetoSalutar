@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kw4t6a');
+  src:  url('fonts/icomoon.eot?kw4t6a#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kw4t6a') format('truetype'),
+    url('fonts/icomoon.woff?kw4t6a') format('woff'),
+    url('fonts/icomoon.svg?kw4t6a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cardiogram_icon:before {
+  content: "\e902";
+}
+.icon-facebook1:before {
+  content: "\e903";
+}
+.icon-facebook-f:before {
+  content: "\e904";
+}
+.icon-facebook-messenger:before {
+  content: "\e905";
+}
+.icon-facebook-square:before {
+  content: "\e906";
+}
+.icon-construction_engineer_icon:before {
+  content: "\e908";
+}
+.icon-sistrix:before {
+  content: "\e909";
+}
+.icon-slideshare:before {
+  content: "\e90a";
+}
+.icon-whatsapp:before {
+  content: "\e90b";
+}
+.icon-whmcs:before {
+  content: "\e90c";
+}
+.icon-ltcat:before {
+  content: "\e90d";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-file-empty:before {
+  content: "\e924";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-spinner9:before {
+  content: "\e982";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-aid-kit:before {
+  content: "\e998";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-lab:before {
+  content: "\e9aa";
+}
+.icon-power-cord:before {
+  content: "\e9b7";
+}
+.icon-clipboard:before {
+  content: "\e9b8";
+}
+.icon-list-numbered:before {
+  content: "\e9b9";
+}
+.icon-man:before {
+  content: "\e9dc";
+}
+.icon-woman:before {
+  content: "\e9dd";
+}
+.icon-man-woman:before {
+  content: "\e9de";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-google:before {
+  content: "\ea88";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-libreoffice:before {
+  content: "\eae3";
+}
