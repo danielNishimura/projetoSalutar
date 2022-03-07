@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salutar Saúde Ocupacional</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <link rel="stylesheet" href="./contato.css">
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <img class="logoSalutarTopo" src="./assets/icons/salutar-logo.svg" alt="Logo Salutar Saude Ocupacional">
+        <a class="logo" href="#">Salutar Saúde <span>Ocupacional</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="index.html#home">Início</a></li>
+            <li><a class="title" href="index.html#about">Sobre</a></li>
+            <li><a class="title" href="index.html#services">Serviços</a></li>
+            <li><a class="title" href="index.html#testimonials">Informações</a></li>
+            <li><a class="title" href="./contato.html">Contato</a></li>
+            <li><a class="title" href="./agendamento.html">Agendamento</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Fale conosco</h2>
+            <p class="subtitle">
+              Através desse formulario voce pode solicitar orçamento de serviços, enviar uma sugestão ou reclamação por E-mail. 
+            </p>
+          </header>
+
+          <section class="content">
+            <div class="content">
+              <form method="post" id="cContato" name="tContato" action="./php/processa.php">
+                <fieldset class="field" id="usuario">
+                    
+                <legend><h3>Identificação do Cliente</h3></legend>
+                    
+                  <p><label for="cMail">E-mail:</label><input type="E-mail" name="tMail" id="cMail" size="30" maxlength="40" placeholder="E-mail"/></p>
+                  <p><label for="cNomeEmpresa">Razão Social:</label><input type="text" name="tNomeEmpresa" id="cNomeEmpresa" size="70" maxlength="60" placeholder="Razão Social da Empresa"/></p>
+                  <p><label for="cCnpj">CNPJ:</label><input type="text" name="tCnpj" id="cCnpj" size="20" maxlength="18" placeholder="CNPJ da Empresa"/></p>
+                  <p><label for="cQtdFuncionario">Quantidade de Funcionários:</label><input type="text" name="tQtdFuncionario" id="cQtdFuncionario" size="15" maxlength="4" placeholder="Funcionarios Ativos"/></p>
+                  <p><label for="cAtividade">Atividade da empresa:</label><input type="text" name="tAtividade" id="cAtividade" size="70" maxlength="60" placeholder="Atividade da Empresa"/></p>
+                  <p><label for="cServicoTerceiro">Presta serviços para terceiros?:</label><input type="text" name="tServicoTerceiro" id="cServicoTerceiro" size="70" maxlength="60" placeholder="Presta Servico para Terceiro?"/></p>
+
+                  <legend class="mCliente">Mensagem do Cliente</legend>
+                  <p><label for="cMsg"></label><textarea class="textarea" name="tMsg" cols="45" rows="7" placeholder="Deixe aqui sua mensagem" ></textarea></p>
+                  <input class="btnSubmit" type="submit" value="Enviar Mensagem"/>
+                </fieldset>
+              </form>
+            </div>
+          </section>
+
+
+
+      </section>
+
+      <div class="divider-1"></div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Salutar Saúde, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 14 99905-9009</li>
+              <li><i class="icon-phone"></i> 14 3311-1515</li>
+              <li><i class="icon-map-pin"></i> Avenida Nelson Spielmann, 593</li>
+              <li><i class="icon-mail"></i> salutar@salutarnet.com.br</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt logo-footer" href="index.html#home">Salutar Saúde <span>Ocupacional</span>.</a>
+          <p>©2021 Salutar Saúde.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social grid">
+          <a href="mailto:agendamento@salutarnet.com.br" target="_blank">
+            <i class="icon-google"></i>
+          </a>
+          <a href="https://pt-br.facebook.com/salutarnet" target="_blank">
+            <i class="icon-facebook"></i
+          ></a>
+          <a href="https://api.whatsapp.com/send?phone=+5514999059009&text=Oi! Gostaria de agendar um horário" target="_blank"
+            ><i class="icon-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="servicos.html" class="back-to-top"><i class="icon-arrow-up2"></i></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
