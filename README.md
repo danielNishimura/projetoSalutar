@@ -20,6 +20,7 @@ Desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- PHP
 
 Utilitários
 
